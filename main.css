@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Albert Sans', sans-serif;
+}
+#join-btn{
+    background: linear-gradient(to right, #1daffa, #71dec3);
+    color: white;
+    padding: 9px 19px;
+    border-radius: 5px;
+    opacity: 1;
+    transition:5s;
+}
+#join-btn:hover{
+    background: linear-gradient(to right, #71dec3,#1db0fa71);
+     /* transition: 0.8s; */
+
+
+}
+
+.rocket {
+    margin-top: 12rem;
+}
+
+/* #carousel-text{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    
+} */
+#btn-1 {
+    border: none;
+    background: linear-gradient(to right, #ff9d08, #ff5b2e);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+
+#carousel-text h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: "arial";
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    animation: animtext 4s steps(80, end);
+    transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+@keyframes animtext {
+    from {
+        width: 0;
+        transition: all 4s ease-in-out;
+    }
+}
+
+#img1 {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce 4s linear infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-68px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#carousel-indicators {
+    left: 0;
+    top: 10%;
+    margin: 0 !important;
+    flex-direction: column;
+    align-items: start;
+    padding-right: 30px;
+
+}
+
+#carousel-indicators button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.image img{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: img1 4s linear infinite;
+}
+
+@keyframes img1 {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-68px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#btn-2{
+    border: none;
+    background: linear-gradient(to right, #1daffa, #71dec3);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+#enroll{
+    background-image: url(assets/images/banner/1.jpg);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#btn-3{
+    border: 1px solid white;
+    color: white;
+    padding: 15px 30px;
+}
+#btn-3:hover{
+    background-color: #1daffa;
+    border: none;
+
+}
+.review{
+    background-image: url(assets/images/banner/3.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* ==========footer section */
+
+footer{
+    background-image: url(assets/images/banner/footer-bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.footer-cont p a{
+    text-decoration: none;
+    color: white;
+
+}
+.footer-cont p{
+    border-bottom: 1px dotted grey;
+}
+table tr td{
+    font-size: 0.8rem;
+}
+
+
+/* =====================================about us  */
+
+#about-banner{
+    background-image: url(assets/images/banner/about-banner.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+#course-details{
+    background-image: url(assets/images/banner/2.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+/* ======================================contact us */
+
+#contact-banner{
+    background-image: url(assets/images/banner/contact-banner.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+#table i{
+    background-color: #029eb7;
+    color: white;
+    font-size: 2rem;
+    padding:8px;
+   
+}
+#info-3 a{
+    color: rgba(255, 255, 255, 0.584);
+    padding: 0.3rem;
+}
+#info-3 a:hover{
+    color: white;
+    transition: 0.8s;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .rocket {
+        display: none;
+    }
+
+    #carousel-text {
+        margin-top: 30%;
+    }
+
+    #carousel-text h2 {
+        font-size: 1rem;
+
+    }
+
+    .carousel-indicators button {
+        display: none;
+    }
+
+    .site-logo img {
+        width: 140px;
+    }
+    footer{
+        background-image: url(assets/images/banner/footer-bg.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    
+    }
+
+}
