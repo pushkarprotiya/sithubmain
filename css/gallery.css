@@ -80,7 +80,7 @@
   .lightbox-container.active .lightbox-image-wrapper {
     /* transform: scale(1); */
     /* for now only , When Images Were larger set to scale 1 again  */
-    transform: scale(2);
+    transform: scale(1);
   }
   .lightbox-btn,
   #close {
