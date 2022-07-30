@@ -4,17 +4,19 @@
     box-sizing: border-box;
     font-family: 'Albert Sans', sans-serif;
 }
-#join-btn{
+
+#join-btn {
     background: linear-gradient(to right, #1daffa, #71dec3);
     color: white;
     padding: 9px 19px;
     border-radius: 5px;
     opacity: 1;
-    transition:5s;
+    transition: 5s;
 }
-#join-btn:hover{
-    background: linear-gradient(to right, #71dec3,#1db0fa71);
-     /* transition: 0.8s; */
+
+#join-btn:hover {
+    background: linear-gradient(to right, #71dec3, #1db0fa71);
+    /* transition: 0.8s; */
 
 
 }
@@ -49,6 +51,7 @@
     animation: animtext 4s steps(80, end);
     transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
 }
+
 @keyframes animtext {
     from {
         width: 0;
@@ -92,7 +95,7 @@
     border-radius: 50%;
 }
 
-.image img{
+.image img {
     display: inline-block;
     margin: 0 0.5rem;
     animation: img1 4s linear infinite;
@@ -112,7 +115,7 @@
     }
 }
 
-#btn-2{
+#btn-2 {
     border: none;
     background: linear-gradient(to right, #1daffa, #71dec3);
     color: white;
@@ -120,7 +123,7 @@
     border-radius: 50px;
 }
 
-#enroll{
+#enroll {
     background-image: url(assets/images/banner/1.jpg);
     width: 100%;
     height: auto;
@@ -129,17 +132,20 @@
     background-size: cover;
     background-attachment: fixed;
 }
-#btn-3{
+
+#btn-3 {
     border: 1px solid white;
     color: white;
     padding: 15px 30px;
 }
-#btn-3:hover{
+
+#btn-3:hover {
     background-color: #1daffa;
     border: none;
 
 }
-.review{
+
+.review {
     background-image: url(assets/images/banner/3.jpg);
     width: 100%;
     background-size: cover;
@@ -149,37 +155,41 @@
 
 /* ==========footer section */
 
-footer{
+footer {
     background-image: url(assets/images/banner/footer-bg.png);
     width: 100%;
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-.footer-cont p a{
+
+.footer-cont p a {
     text-decoration: none;
     color: white;
 
 }
-.footer-cont p{
+
+.footer-cont p {
     border-bottom: 1px dotted grey;
 }
-table tr td{
+
+table tr td {
     font-size: 0.8rem;
 }
 
 
 /* =====================================about us  */
 
-#about-banner{
+#about-banner {
     background-image: url('assets/images/banner/about-banner.jpg');
     height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+}
 
-#course-details{
+#course-details {
     background-image: url(assets/images/banner/2.jpg);
     width: 100%;
     background-position: center;
@@ -191,7 +201,7 @@ table tr td{
 
 /* ======================================contact us */
 
-#contact-banner{
+#contact-banner {
     background-image: url(assets/images/banner/contact-banner.jpg);
     height: 100vh;
     width: 100%;
@@ -200,25 +210,27 @@ table tr td{
     background-repeat: no-repeat;
 }
 
-#table i{
+#table i {
     background-color: #029eb7;
     color: white;
     font-size: 2rem;
-    padding:8px;
-   
+    padding: 8px;
+
 }
-#info-3 a{
+
+#info-3 a {
     color: rgba(255, 255, 255, 0.584);
     padding: 0.3rem;
 }
-#info-3 a:hover{
+
+#info-3 a:hover {
     color: white;
     transition: 0.8s;
 }
 
 /* ======================= admission banner */
 
-#admission-banner{
+#admission-banner {
     background-image: url(assets/images/banner/admission-banner.jpg);
     height: 100vh;
     width: 100%;
@@ -229,7 +241,7 @@ table tr td{
 
 /* ======================= internship banner */
 
-#internship-banner{
+#internship-banner {
     background-image: url(assets/images/banner/internship-banner.jpg);
     height: 100vh;
     width: 100%;
@@ -304,7 +316,7 @@ table tr td{
     outline: none;
 }
 
-#formFile{
+#formFile {
     border: 1px solid black;
     padding: 5px;
     width: 100%;
@@ -320,7 +332,7 @@ table tr td{
 
 /* ==================================== placement section */
 
-#placement-banner{
+#placement-banner {
     background-image: url(assets/images/banner/placement-banner.jpg);
     height: 100vh;
     width: 100%;
@@ -332,7 +344,7 @@ table tr td{
 
 /* ==================================== company internship section */
 
-#comapnyIntern-banner{
+#comapnyIntern-banner {
     background-image: url(assets/images/banner/company-internship-banner.jpg);
     height: 100vh;
     width: 100%;
@@ -343,7 +355,7 @@ table tr td{
 
 /* ===================================== company placement section */
 
-#companyPlace-banner{
+#companyPlace-banner {
     background-image: url(assets/images/banner/company-placement-banner.jpg);
     height: 100vh;
     width: 100%;
@@ -354,7 +366,7 @@ table tr td{
 
 /* ===================================== gallery  section */
 
-#gallery-banner{
+#gallery-banner {
     background-image: url(assets/images/banner/gallery-banner.jpg);
     height: 100vh;
     width: 100%;
@@ -365,7 +377,7 @@ table tr td{
 
 /* ===================================== reviews  section */
 
-#review-banner{
+#review-banner {
     background-image: url(assets/images/banner/review-banner.jpg);
     height: 100vh;
     width: 100%;
@@ -404,16 +416,68 @@ table tr td{
     .site-logo img {
         width: 140px;
     }
-    footer{
+
+    footer {
         background-image: url(assets/images/banner/footer-bg.png);
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-    
+
     }
-    #table{
+
+    #table {
         overflow-x: scroll;
+    }
+
+    #admission-banner {
+        height: 60vh;
+    }
+
+    /* ======================= internship banner */
+
+    #internship-banner {
+
+        height: 60vh;
+
+    }
+
+    /* ==================================== placement section */
+
+    #placement-banner {
+        height: 60vh;
+    }
+
+
+    /* ==================================== company internship section */
+
+    #comapnyIntern-banner {
+        height: 60vh;
+    }
+
+    /* ===================================== company placement section */
+
+    #companyPlace-banner {
+        height: 60vh;
+    }
+
+    /* ===================================== gallery  section */
+
+    #gallery-banner {
+        height: 60vh;
+    }
+
+    /* ===================================== reviews  section */
+
+    #review-banner {
+
+        height: 60vh;
+    }
+
+    /* ===================================== contact section */
+
+    #contact-banner {
+        height: 60vh;
     }
 
 
@@ -432,281 +496,281 @@ table tr td{
     /* change if the mask should have another color then white */
     z-index: 99;
     /* makes sure it stays on top */
-  }
-  
-  
-  @import url("https://fonts.googleapis.com/css?family=Oxygen:700&display=swap");
+}
 
-  .about {
-      position: fixed;
-      z-index: 10;
-      bottom: 10px;
-      right: 10px;
-      width: 40px;
-      height: 40px;
-      display: flex;
-      justify-content: flex-end;
-      align-items: flex-end;
-      transition: all 0.2s ease;
-  }
 
-  .about .bg_links {
-      width: 40px;
-      height: 40px;
-      border-radius: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: rgba(0, 0, 0, 0.2);
-      border-radius: 100%;
-      backdrop-filter: blur(5px);
-      position: absolute;
-  }
+@import url("https://fonts.googleapis.com/css?family=Oxygen:700&display=swap");
 
-  .about .logo {
-      width: 40px;
-      height: 40px;
-      z-index: 9;
-      background-image: url(https://rafaelavlucas.github.io/assets/codepen/logo_white.svg);
-      background-size: 50%;
-      background-repeat: no-repeat;
-      background-position: 10px 7px;
-      opacity: 0.9;
-      transition: all 1s 0.2s ease;
-      bottom: 0;
-      right: 0;
-  }
+.about {
+    position: fixed;
+    z-index: 10;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: all 0.2s ease;
+}
 
-  .about .social {
-      opacity: 0;
-      right: 0;
-      bottom: 0;
-  }
+.about .bg_links {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    backdrop-filter: blur(5px);
+    position: absolute;
+}
 
-  .about .social .icon {
-      width: 100%;
-      height: 100%;
-      background-size: 20px;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-color: transparent;
-      display: flex;
-      transition: all 0.2s ease, background-color 0.4s ease;
-      opacity: 0;
-      border-radius: 100%;
-  }
+.about .logo {
+    width: 40px;
+    height: 40px;
+    z-index: 9;
+    background-image: url(https://rafaelavlucas.github.io/assets/codepen/logo_white.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 10px 7px;
+    opacity: 0.9;
+    transition: all 1s 0.2s ease;
+    bottom: 0;
+    right: 0;
+}
 
-  .about .social.portfolio {
-      transition: all 0.8s ease;
-  }
+.about .social {
+    opacity: 0;
+    right: 0;
+    bottom: 0;
+}
 
-  .about .social.portfolio .icon {
-      background-image: url(https://rafaelavlucas.github.io/assets/codepen/link.svg);
-  }
+.about .social .icon {
+    width: 100%;
+    height: 100%;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    display: flex;
+    transition: all 0.2s ease, background-color 0.4s ease;
+    opacity: 0;
+    border-radius: 100%;
+}
 
-  .about .social.dribbble {
-      transition: all 0.3s ease;
-  }
+.about .social.portfolio {
+    transition: all 0.8s ease;
+}
 
-  .about .social.dribbble .icon {
-      background-image: url(https://rafaelavlucas.github.io/assets/codepen/dribbble.svg);
-  }
+.about .social.portfolio .icon {
+    background-image: url(https://rafaelavlucas.github.io/assets/codepen/link.svg);
+}
 
-  .about .social.linkedin {
-      transition: all 0.8s ease;
-  }
+.about .social.dribbble {
+    transition: all 0.3s ease;
+}
 
-  .about .social.linkedin .icon {
-      background-image: url(https://rafaelavlucas.github.io/assets/codepen/linkedin.svg);
-  }
+.about .social.dribbble .icon {
+    background-image: url(https://rafaelavlucas.github.io/assets/codepen/dribbble.svg);
+}
 
-  .about:hover {
-      width: 105px;
-      height: 105px;
-      transition: all 0.6s cubic-bezier(0.64, 0.01, 0.07, 1.65);
-  }
+.about .social.linkedin {
+    transition: all 0.8s ease;
+}
 
-  .about:hover .logo {
-      opacity: 1;
-      transition: all 0.6s ease;
-  }
+.about .social.linkedin .icon {
+    background-image: url(https://rafaelavlucas.github.io/assets/codepen/linkedin.svg);
+}
 
-  .about:hover .social {
-      opacity: 1;
-  }
+.about:hover {
+    width: 105px;
+    height: 105px;
+    transition: all 0.6s cubic-bezier(0.64, 0.01, 0.07, 1.65);
+}
 
-  .about:hover .social .icon {
-      opacity: 0.9;
-  }
+.about:hover .logo {
+    opacity: 1;
+    transition: all 0.6s ease;
+}
 
-  .about:hover .social:hover {
-      background-size: 28px;
-  }
+.about:hover .social {
+    opacity: 1;
+}
 
-  .about:hover .social:hover .icon {
-      background-size: 65%;
-      opacity: 1;
-  }
+.about:hover .social .icon {
+    opacity: 0.9;
+}
 
-  .about:hover .social.portfolio {
-      right: 0;
-      bottom: calc(100% - 40px);
-      transition: all 0.3s 0s cubic-bezier(0.64, 0.01, 0.07, 1.65);
-  }
+.about:hover .social:hover {
+    background-size: 28px;
+}
 
-  .about:hover .social.portfolio .icon:hover {
-      background-color: #698fb7;
-  }
+.about:hover .social:hover .icon {
+    background-size: 65%;
+    opacity: 1;
+}
 
-  .about:hover .social.dribbble {
-      bottom: 45%;
-      right: 45%;
-      transition: all 0.3s 0.15s cubic-bezier(0.64, 0.01, 0.07, 1.65);
-  }
+.about:hover .social.portfolio {
+    right: 0;
+    bottom: calc(100% - 40px);
+    transition: all 0.3s 0s cubic-bezier(0.64, 0.01, 0.07, 1.65);
+}
 
-  .about:hover .social.dribbble .icon:hover {
-      background-color: #ea4c89;
-  }
+.about:hover .social.portfolio .icon:hover {
+    background-color: #698fb7;
+}
 
-  .about:hover .social.linkedin {
-      bottom: 0;
-      right: calc(100% - 40px);
-      transition: all 0.3s 0.25s cubic-bezier(0.64, 0.01, 0.07, 1.65);
-  }
+.about:hover .social.dribbble {
+    bottom: 45%;
+    right: 45%;
+    transition: all 0.3s 0.15s cubic-bezier(0.64, 0.01, 0.07, 1.65);
+}
 
-  .about:hover .social.linkedin .icon:hover {
-      background-color: #0077b5;
-  }
+.about:hover .social.dribbble .icon:hover {
+    background-color: #ea4c89;
+}
 
-  body {
-      margin: 0;
-  }
+.about:hover .social.linkedin {
+    bottom: 0;
+    right: calc(100% - 40px);
+    transition: all 0.3s 0.25s cubic-bezier(0.64, 0.01, 0.07, 1.65);
+}
 
-  .content {
-      width: 100%;
-      height: 100vh;
-      background-color: #171f30;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
+.about:hover .social.linkedin .icon:hover {
+    background-color: #0077b5;
+}
 
-  .content .loading {
-      width: 80px;
-      height: 50px;
-      position: relative;
-  }
+body {
+    margin: 0;
+}
 
-  .content .loading p {
-      top: 0;
-      padding: 0;
-      margin: 0;
-      color: #5389a6;
-      font-family: "Oxygen", sans-serif;
-      animation: text 3.5s ease both infinite;
-      font-size: 12px;
-      letter-spacing: 1px;
-  }
+.content {
+    width: 100%;
+    height: 100vh;
+    background-color: #171f30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  @keyframes text {
-      0% {
-          letter-spacing: 1px;
-          transform: translateX(0px);
-      }
+.content .loading {
+    width: 80px;
+    height: 50px;
+    position: relative;
+}
 
-      40% {
-          letter-spacing: 2px;
-          transform: translateX(26px);
-      }
+.content .loading p {
+    top: 0;
+    padding: 0;
+    margin: 0;
+    color: #5389a6;
+    font-family: "Oxygen", sans-serif;
+    animation: text 3.5s ease both infinite;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
 
-      80% {
-          letter-spacing: 1px;
-          transform: translateX(32px);
-      }
+@keyframes text {
+    0% {
+        letter-spacing: 1px;
+        transform: translateX(0px);
+    }
 
-      90% {
-          letter-spacing: 2px;
-          transform: translateX(0px);
-      }
+    40% {
+        letter-spacing: 2px;
+        transform: translateX(26px);
+    }
 
-      100% {
-          letter-spacing: 1px;
-          transform: translateX(0px);
-      }
-  }
+    80% {
+        letter-spacing: 1px;
+        transform: translateX(32px);
+    }
 
-  .content .loading span {
-      background-color: #5389a6;
-      border-radius: 50px;
-      display: block;
-      height: 16px;
-      width: 16px;
-      bottom: 0;
-      position: absolute;
-      transform: translateX(64px);
-      animation: loading 3.5s ease both infinite;
-  }
+    90% {
+        letter-spacing: 2px;
+        transform: translateX(0px);
+    }
 
-  .content .loading span:before {
-      position: absolute;
-      content: "";
-      width: 100%;
-      height: 100%;
-      background-color: #a6dcee;
-      border-radius: inherit;
-      animation: loading2 3.5s ease both infinite;
-  }
+    100% {
+        letter-spacing: 1px;
+        transform: translateX(0px);
+    }
+}
 
-  @keyframes loading {
-      0% {
-          width: 16px;
-          transform: translateX(0px);
-      }
+.content .loading span {
+    background-color: #5389a6;
+    border-radius: 50px;
+    display: block;
+    height: 16px;
+    width: 16px;
+    bottom: 0;
+    position: absolute;
+    transform: translateX(64px);
+    animation: loading 3.5s ease both infinite;
+}
 
-      40% {
-          width: 100%;
-          transform: translateX(0px);
-      }
+.content .loading span:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #a6dcee;
+    border-radius: inherit;
+    animation: loading2 3.5s ease both infinite;
+}
 
-      80% {
-          width: 16px;
-          transform: translateX(64px);
-      }
+@keyframes loading {
+    0% {
+        width: 16px;
+        transform: translateX(0px);
+    }
 
-      90% {
-          width: 100%;
-          transform: translateX(0px);
-      }
+    40% {
+        width: 100%;
+        transform: translateX(0px);
+    }
 
-      100% {
-          width: 16px;
-          transform: translateX(0px);
-      }
-  }
+    80% {
+        width: 16px;
+        transform: translateX(64px);
+    }
 
-  @keyframes loading2 {
-      0% {
-          transform: translateX(0px);
-          width: 16px;
-      }
+    90% {
+        width: 100%;
+        transform: translateX(0px);
+    }
 
-      40% {
-          transform: translateX(0%);
-          width: 80%;
-      }
+    100% {
+        width: 16px;
+        transform: translateX(0px);
+    }
+}
 
-      80% {
-          width: 100%;
-          transform: translateX(0px);
-      }
+@keyframes loading2 {
+    0% {
+        transform: translateX(0px);
+        width: 16px;
+    }
 
-      90% {
-          width: 80%;
-          transform: translateX(15px);
-      }
+    40% {
+        transform: translateX(0%);
+        width: 80%;
+    }
 
-      100% {
-          transform: translateX(0px);
-          width: 16px;
-      }
-  }
+    80% {
+        width: 100%;
+        transform: translateX(0px);
+    }
+
+    90% {
+        width: 80%;
+        transform: translateX(15px);
+    }
+
+    100% {
+        transform: translateX(0px);
+        width: 16px;
+    }
+}
